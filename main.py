@@ -11,8 +11,8 @@ intents = discord.Intents.default()
 intents.message_content = True
 client = discord.Client(intents=intents)
 
-SOURCE_CHANNEL_ID = 123456789012345678  # <-- replace this
-TARGET_CHANNEL_ID = 876543210987654321  # <-- replace this
+SOURCE_CHANNEL_ID = 1311671727763361866  # <-- replace this
+TARGET_CHANNEL_ID = 1067479368823210028  # <-- replace this
 
 @client.event
 async def on_ready():
