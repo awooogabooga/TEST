@@ -1,5 +1,5 @@
 services:
-  - type: web
+  - type: background
     name: discord-relay-bot
     env: python
     plan: free
